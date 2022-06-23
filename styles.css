@@ -191,3 +191,78 @@ hr{
     font-weight: 700;
 }
 
+.mobile{
+    display: flex;
+}
+
+.desktop{
+    display: none;
+}
+
+@media screen and (max-width:300px){
+.faq-questions {
+padding: 0 2.5rem;
+padding-bottom: 5rem;
+}
+
+.faq-illustration {
+position: relative;
+display: flex;
+justify-content: center;
+}
+    }
+
+/* Desktop Functionality */
+@media screen and (min-width:1050px) {
+    .faq-card{
+        width: 92rem;
+        min-height: 50rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        }
+    .faq-questions{
+        width: 35rem;
+        padding-bottom: 0rem;
+        margin-right: 10rem;
+    }
+
+    h1{
+        text-align: left;
+        padding-top: 2rem;
+    }
+
+    .desktop{
+        display: block;
+        overflow: hidden;
+
+    }
+
+    .box{
+        position: absolute;
+        top: 40rem;
+        transform: translateX(-46rem);
+        z-index: 2;
+       }
+
+    .desktop-illustration{
+        width: 47rem;
+        transform: translateX(-8rem);
+          z-index: 1;
+    }
+
+    .desktop-background{
+        position: absolute;
+        transform: translate(-60%, -38%);
+    }
+
+
+   
+
+
+
+    
+}
+
