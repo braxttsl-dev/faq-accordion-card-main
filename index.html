@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <title>FAQ Accordion Card</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,25 +16,36 @@
 </head>
 
 <body>
+  <img src="images/illustration-box-desktop.svg" class="box desktop">
   <section class="faq-card">
 
-    <section class="faq-illustration">
-      <img src="images/illustration-woman-online-mobile.svg" class="mobile illustration">
-      <img src="images/bg-pattern-mobile.svg" class="mobile illustration-under">
+    <section class="faq-illustration mobile">
+      <img src="images/illustration-woman-online-mobile.svg" class="illustration">
+      <img src="images/bg-pattern-mobile.svg" class="illustration-under">
+    </section>
+    
+
+    <section class="desktop">
+      <img src="images/bg-pattern-desktop.svg" class="desktop-background">
+      <img src="images/illustration-woman-online-desktop.svg" class="desktop-illustration">
     </section>
 
-    <section>
-      <h1>FAQ</h1>
-    </section>
+
+
 
     <section class="faq-questions">
+
+      <section>
+        <h1>FAQ</h1>
+      </section>
 
       <div>
         <div class="question-container">
           <h2 class="question">How many team members can I invite?</h2>
           <img src="images/icon-arrow-down.svg" alt="arrow pointing down" id="arrow" class="arrow">
         </div>
-        <p class="answer hide" id="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+        <p class="answer hide" id="answer">You can invite up to 2 additional users on the Free plan. There is no limit
+          on
           team members for the Premium plan.</p>
       </div>
 
@@ -45,7 +56,8 @@
           <h2 class="question">What is the maximum file upload size?</h2>
           <img src="images/icon-arrow-down.svg" alt="arrow pointing down" id="arrow" class="arrow">
         </div>
-        <p class="answer hide" id="answer">No more than 2GB. All files in your account must fit your allotted storage space.
+        <p class="answer hide" id="answer">No more than 2GB. All files in your account must fit your allotted storage
+          space.
         </p>
       </div>
 
@@ -56,12 +68,13 @@
           <h2 class="question">How do I reset my password?</h2>
           <img src="images/icon-arrow-down.svg" alt="arrow pointing down" id="arrow" class="arrow">
         </div>
-        <p class="answer hide" id="answer">Click “Forgot password” from the login page or “Change password” from your profile
+        <p class="answer hide" id="answer">Click “Forgot password” from the login page or “Change password” from your
+          profile
           page.
           A reset link will be emailed to you.</p>
       </div>
 
-    <hr>
+      <hr>
 
       <div>
         <div class="question-container">
@@ -79,7 +92,8 @@
           <h2 class="question">Do you provide additional support?</h2>
           <img src="images/icon-arrow-down.svg" alt="arrow pointing down" id="arrow" class="arrow">
         </div>
-        <p class="answer hide" id="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        <p class="answer hide" id="answer">Chat and email support is available 24/7. Phone lines are open during normal
+          business hours.</p>
       </div>
 
 
